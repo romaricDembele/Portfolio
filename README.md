@@ -1,2 +1,2 @@
-# CV
-https://romaricdembele.github.io/CV/
+# Portfolio
+https://romaricdembele.github.io/Portfolio/
