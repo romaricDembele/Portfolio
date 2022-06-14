@@ -11,164 +11,246 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
-    <h1>Je suis Romaric.</h1>
-    <h2>Un étudiant ingénieur Informatique.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
-    <img src="images/mountain.png" alt="mountain-image">
+<body class="flex-container">
+  <div class="sidebar">
+    <nav id="main-nav-bar">
+      <ul id="main-nav-bar-items">
+        <li>
+          <a href="#home">
+            <figure>
+              <img src="images/home (2).png" class="sidebar-img" alt="Home">
+              <figcaption>Home</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#profile">
+            <figure>
+              <img src="images/user.png" class="sidebar-img" alt="About me">
+              <figcaption>About me</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#skillsets">
+            <figure>
+              <img src="images\personal-development.png" class="sidebar-img" alt="Skillsets">
+              <figcaption>Skillsets</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#acomplishments">
+            <figure>
+              <img src="images\project.png" class="sidebar-img" alt="Accomplishments">
+              <figcaption>Acomplishments</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#education">
+            <figure>
+              <img src="images\mortarboard.png" class="sidebar-img" alt="Education">
+              <figcaption>Education</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#credentials">
+            <figure>
+              <img src="images\contract.png" class="sidebar-img" alt="Credentials">
+              <figcaption>Credentials</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <figure>
+              <img src="images\mail.png" class="sidebar-img" alt="Contact">
+              <figcaption>Contact</figcaption>
+            </figure>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
-
-
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/profile.jpg" class="profile-image" alt="profile-image">
-      <h2>Hello.</h2>
-      <p class="intro">Ambitieux, doté d’un sens de l’écoute et d’une
-        rigueur de travail, je suis à la recherche d’une alternance
-        s’étalant sur 3 années avec un rythme de 1 mois en entreprise
-        et 1 mois à l’école dès octobre 2021.
-      </p>
+  <main class="main-content">
+    <div class="top-container" id="home">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+      <h1>Portfolio</h1>
+      <h2>A computer engineering student.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+      <img src="images/mountain.png" alt="mountain-image">
     </div>
-
-    <hr>
-    <!-- /************************************************ SKILLS SECTION **************************************************/ -->
-    <div class="skills">
-      <h2>Mes compétences.</h2>
-      <div class="skill-row">
-        <img class="img-code" src="images/programming.png" alt="programming-image">
-        <h3>Langages de programmation</h3>
-        <p>C/C++, C#/ASP.NET Core MVC, Arduino, Python, SQL, JavaScript, PHP/Framework Laravel</p>
+    
+    
+    <div class="middle-container">
+      <div class="profile" id="profile">
+        <img src="images/profile.jpg" class="profile-image" alt="profile-image">
+        <h2>Hello.</h2>
+        <p class="intro">I'm Romaric DEMBELE. A computer science student passionated 
+          about science in general and particularly about software development. 
+          I'm also interested in various subjects as philosophy, geopolitics and I would like 
+          to add a stone to the construction of a better world.
+          My goal is to build my own IT company in the future.
+        </p>
       </div>
-      <div class="skill-row">
-        <img class="img-office" src="images/office.png" alt="microsoft-office-image">
-        <h3>Bureautique</h3>
-        <p>Microsoft Word, Excel, Power point.</p>
+    
+      <hr>
+      <!-- /************************************************ SKILLS SECTION **************************************************/ -->
+      <div class="skills" id="skillsets">
+        <h2>Skillsets</h2>
+        <div class="skill-row">
+          <img class="img-code" src="images/programming.png" alt="programming-image">
+          <h3>Programming languages</h3>
+          <p>C/C++, C#/ASP.NET Core MVC, Arduino, Python, SQL, JavaScript, PHP/Framework Laravel</p>
+        </div>
+        <div class="skill-row">
+          <img class="img-office" src="images/office.png" alt="microsoft-office-image">
+          <h3>Office automation</h3>
+          <p>Microsoft Word, Excel, Power point.</p>
+        </div>
+        <div class="skill-row">
+          <img class="img-github" src="images/github.png" alt="github-image">
+          <h3>Usage og Git and Github</h3>
+          <p>Versioning and collaborative work.</p>
+        </div>
+        <div class="skill-row">
+          <img class="img-uml" src="images/uml.png" alt="uml-image">
+          <h3>UML modeling</h3>
+          <p>Use case, activity, class, components, sequence diagrams.</p>
+        </div>
+        <div class="skill-row">
+          <img class="img-gantt" src="images/gantt.png" alt="gantt-image">
+          <h3>Project management</h3>
+          <p>PERT and GANTT charts</p>
+        </div>
+        <div class="skill-row">
+          <img class="img-cisco" src="images/cisco.png" alt="cisco-image">
+          <h3>CISCO CCNA1 Certificate</h3>
+          <p>Introduction to Networks</p>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="img-github" src="images/github.png" alt="github-image">
-        <h3>Utilisation de Git Bash et Github</h3>
-        <p>Versionning et travail collaboratif.</p>
+    
+      <hr>
+      <!-- /************************************************ EXPERIENCE SECTION **************************************************/ -->
+      <div class="skills" id="acomplishments">
+        <h2>My accomplishments.</h2>
+        <div class="experience-row">
+          <h3>Internship SAS GPP 2021-04-21 – 2021-06-16</h3>
+          <p>
+            Redirection of the domain name of an e-commerce site and
+            migration from prestashop 1.6 to 1.7.
+          </p>
+        </div>
+        <div class="experience-row">
+          <h3>Website Project 2021-03-21 - 2021-04-01</h3>
+          <p>
+            This project consisted of setting up a responsive website 
+            in the form of a PWA respecting the MVC architecture and
+            representing an internship search platform.
+          </p>
+        </div>
+        <div class="experience-row">
+          <h3>Networks and Systems Project 2020-12-07 - 2021-01-22</h3>
+          <p>
+            In a group of four people, I coordinated and participated 
+            in the configuration (including securing) of the equipment 
+            of a Cisco Packet Tracer network model representing 
+            a connected city.
+          </p>
+        </div>
+        <div class="experience-row">
+          <h3>Object Oriented Programming Project 2020-11-18 – 2020-12-04</h3>
+          <p>With two other classmates, a management application (client-server type) was coded in C++.</p>
+        </div>
+        <div class="experience-row">
+          <h3>Embedded System Project 2020-10-07 – 2020-10-23</h3>
+          <p>
+            I had to make this project a reality in collaboration 
+            with four classmates as part of the problem-based learning 
+            (PBL) offered by CESI. The project involved building 
+            a radio station prototype using an Arduino board and the 
+            Arduino C programming language.
+          </p>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="img-uml" src="images/uml.png" alt="uml-image">
-        <h3>Modélisation UML</h3>
-        <p>Diagrammes de cas d'utilisation, de séquence, d'activité, de classes.</p>
+    
+      <hr>
+      <!-- /************************************************ EDUCATION SECTION **************************************************/ -->
+      <div class="skills" id="education">
+        <h2>My Education.</h2>
+        <div class="education-row">
+          <h3>2021-2024</h3>
+          <p>Apprenticeship Computer Engineering Cycle</p>
+          <p>CESI Engineering School</p>
+          <p>
+            Skills being acquired: Networks and development, AI, Data science, Security.
+          </p>
+        </div>
+        <div class="education-row">
+          <h3>2020-2021</h3>
+          <p>End of IT preparatory classes (2nd year undergraduate)</p>
+          <p>Admitted to the CESI of Saint Nazaire via the EG@ competition, FRANCE</p>
+          <p>
+            Skills acquired: Problem solving, Networks and development.
+          </p>
+        </div>
+        <div class="education-row">
+          <h3>2018-2020</h3>
+          <p>Mathmatics and physics, valedictorian (2nd year undergraduate)</p>
+          <p>CPGE-LASALLE, Ouagadougou, BURKINA FASO.</p>
+          <p>Maths, Physics, Engineering Sciences (1st year undergraduate) </p>
+          <p>CPGE-Ouaga I University Pr. Joseph Ki-Zerbo.</p>
+        </div>
+        <div class="education-row">
+          <h3>2018</h3>
+          <p>
+            "Baccalauréat Scientifique" (Mathematics and natural sciences),
+            Mention GOOD, Equivalent of "British A-level" and "high school diploma"
+          </p>
+          <p>School Group Saint Viateur, Ouagadougou, BURKINA FASO.</p>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="img-gantt" src="images/gantt.png" alt="gantt-image">
-        <h3>Gestion de projet </h3>
-        <p>Diagramme PERT, GANTT.</p>
+    
+      <!-- /************************************************ CREDENTIALS SECTION **************************************************/ -->
+      <div class="skills" id="credentials">
+        <h2>Credentials</h2>
+        <div class="dowloads dowloads-row">
+          <div>
+            <a class="btn" href="documents\Resume_Romaric_DEMBELE.pdf" download="Resume_Romaric_DEMBELE.pdf">Resume</a>
+          </div>
+          <div>
+            <a class="btn" href="documents\Cover_Letter.png" download="Cover_Letter.png">Cover Letter</a>
+          </div>
+          <div>
+            <a class="btn" href="documents\Individual_Training_Plan_Competencies_Table.pdf" download="Individual_Training_Plan_Competencies_Table.pdf">Skills table</a>
+          </div>
+          <div>
+            <a class="btn" href="documents\Learn_C_sharp_certification.pdf" download="Learn_C_sharp_certification.pdf">Certificate</a>
+          </div>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="img-cisco" src="images/cisco.png" alt="cisco-image">
-        <h3>Certification CISCO CCNA1</h3>
-        <p>Introduction to Networks</p>
+    
+    
+      <hr>
+    
+      <div class="contact-me" id="contact">
+        <h2>Get in touch</h2>
+        <h3>For a lasting collaboration.</h3>
+        <p class="contact-message">Do not hesitate to contact me for additional information concerning the work-study program or my profile.</p>
+        <a class="btn" href="mailto:romadembele@gmail.com">CONTACT ME</a>
       </div>
     </div>
-
-    <hr>
-    <!-- /************************************************ EXPERIENCE SECTION **************************************************/ -->
-    <div class="skills">
-      <h2>Mes expériences.</h2>
-      <div class="experience-row">
-        <h3>Stage SAS GPP 21 avril 2021 – 16 juin 2021</h3>
-        <p>
-          Redirection du nom de domaine d’un site e-commerce vers un autre,
-          migration d’un prestashop 1.6 vers 1.7 et mise en place d’un nouveau
-          thème pour le site web.
-        </p>
-      </div>
-      <div class="experience-row">
-        <h3>Projet Web 05 mars 2021 - 01 avril 2021</h3>
-        <p>
-          Ce projet a consisté à la mise en place d’un site web responsive sous
-          forme de PWA respectant l’architecture MVC et représentant une
-          plateforme de recherche de stage.
-        </p>
-      </div>
-      <div class="experience-row">
-        <h3>Projet Réseaux et Systèmes 7 déc. 20 - 22 jan. 21</h3>
-        <p>
-          Dans un groupe constitué de quatre personnes, j’ai coordonné et
-          participé à la configuration (y compris sécurisation) des équipements
-          d’une maquette réseau Cisco Packet Tracer représentant une ville
-          connectée.
-        </p>
-      </div>
-      <div class="experience-row">
-        <h3>Projet Programmation Orientée Objet 18 nov. 20 – 04 déc. 20</h3>
-        <p>C/C++, Arduino, Python, SQL, JavaScript, PHP/Framework Laravel</p>
-      </div>
-      <div class="experience-row">
-        <h3>Projet Système Embarqué 7 oct. 20 – 23 oct. 20</h3>
-        <p>
-          J’ai eu à concrétiser ce projet en collaboration avec quatre
-          camarades dans le cadre de l’apprentissage par problèmes (PBL) que
-          propose le CESI. Le projet consistait en la réalisation d’un
-          prototype de station radio à l’aide d’une carte Arduino et du langage
-          de programmation C Arduino.
-        </p>
-      </div>
+    
+    
+    <div class="bottom-container">
+      <a class="footer-link" href="https://linkedin.com/in/dembele-romaric-alternance-informatique">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/romaricDembele">Github</a>
+      <p>Phone: (+33) 0749715318</p>
+      <p class="copyright">© 2022 Romaric DEMBELE.</p>
     </div>
-
-    <hr>
-    <!-- /************************************************ EDUCATION SECTION **************************************************/ -->
-    <div class="skills">
-      <h2>Mes formations.</h2>
-      <div class="education-row">
-        <h3>2021-2024</h3>
-        <p>Cycle Ingénieur Informatique Apprentissage</p>
-        <p>CESI Ecole d’Ingénieurs</p>
-        <p>
-          Compétences à venir: Réseaux et développement, Intelligence
-          artificielle, Science des données, Sécurité.
-        </p>
-      </div>
-      <div class="education-row">
-        <h3>2020-2021</h3>
-        <p>Cycle préparatoire informatique</p>
-        <p>Admis au CESI de Saint Nazaire via le concours EG@</p>
-        <p>
-          Compétences acquises: Résolution de problèmes,Réseaux et développement.
-        </p>
-      </div>
-      <div class="education-row">
-        <h3>2018-2020</h3>
-        <p>Maths Physique (MP), Major de promotion,</p>
-        <p>CPGE-LASALLE, Ouagadougou.</p>
-        <p>Maths Physique Sciences de I’Ingénieur (MPSI),</p>
-        <p>CPGE-Ecole Polytechnique de Ouagadougou.</p>
-      </div>
-      <div class="education-row">
-        <h3>2018</h3>
-        <p>
-          Baccalauréat Scientifique (Mathématiques et sciences de la nature),
-          mention BIEN,
-        </p>
-        <p>Groupe Scolaire Saint – Viateur, Ouagadougou.</p>
-      </div>
-    </div>
-
-
-    <hr>
-
-    <div class="contact-me">
-      <h2>Entrer en contact</h2>
-      <h3>Pour une collaboration durable.</h3>
-      <p class="contact-message">N'hésitez pas à me contacter pour des informations complémentaires concernant la formation en alternance ou mon profil.</p>
-      <a class="btn" href="mailto:romadembele@gmail.com">ME CONTACTER</a>
-    </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://linkedin.com/in/dembele-romaric-alternance-informatique">LinkedIn</a>
-    <a class="footer-link" href="https://romaricdembele.github.io/CV/">Site web</a>
-    <p>Téléphone: (+33) 0749715318</p>
-    <p class="copyright">© 2021 Romaric Dembélé.</p>
-  </div>
+  </main>
 
 </body>
 

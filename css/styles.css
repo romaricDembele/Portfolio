@@ -5,6 +5,13 @@ a {
   text-decoration: none;
 }
 
+aside{
+  padding: 0;
+}
+aside.a{
+  margin: 0;
+}
+
 a:hover {
   color: #EAF6F6;
 }
@@ -13,12 +20,17 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  z-index: 0;
 }
 
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+figure{
+  margin: 0;
 }
 
 h1 {
@@ -99,6 +111,18 @@ p {
   margin: 40px auto 60px;
 }
 
+.dowloads{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dowloads-row{
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+}
+
 .education-row {
   width: 50%;
   margin: 100px auto 100px;
@@ -109,6 +133,11 @@ p {
   width: 50%;
   margin: 100px auto 100px;
   text-align: left;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
 }
 
 .img-code {
@@ -156,9 +185,59 @@ p {
   margin: 100px 0 100px;
 }
 
+.main-content{
+  z-index: 1;
+}
+
+#main-nav-bar{
+  height: 100%;
+}
+
+#main-nav-bar-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* padding-top: 1rem; */
+  /* padding-bottom: 3rem; */
+  height: 90%;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .profile-image {
   width: 15%;
   border-radius: 50%;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  /* background:#66BFBF; */
+  /* margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem; */
+  height: 42rem;
+  position: fixed;
+  left: 6%;
+  top: 0;
+  right: auto;
+  z-index: 2;
+  /* padding-top: 9rem; */
+  /* padding-bottom: 12rem; */
+
+}
+
+.sidebar-img{
+  height: auto;
+  width: auto;
+  max-width: 36px;
+  max-height: 36px;
 }
 
 .skill-row {
@@ -177,4 +256,5 @@ p {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
+  /* z-index: 2; */
 }
